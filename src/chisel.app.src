@@ -1,0 +1,12 @@
+{application, chisel,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { chisel_app, []}},
+  {env, []}
+ ]}.
